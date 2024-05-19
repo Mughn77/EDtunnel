@@ -21,7 +21,7 @@ const worker_default = {
 				switch (url.pathname) {
 					case "/ghn77":
 						const host = request.headers.get('Host');
-						return new Response(`trojan://ca110us@${host}:443/?type=ws&host=${host}&security=tls`, {
+						return new Response(`trojan://ghn77@${host}:443/?type=ws&host=${host}&security=tls`, {
 							status: 200,
 							headers: {
 								"Content-Type": "text/plain;charset=utf-8",
