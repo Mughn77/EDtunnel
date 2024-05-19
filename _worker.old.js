@@ -3,7 +3,7 @@
 // https://github.com/ca110us/epeius/blob/main/src/worker.js
 import { connect } from "cloudflare:sockets";
 let sha224Password = '08f32643dbdacf81d0d511f1ee24b06de759e90f8edf742bbdc57d88';
-let proxyIP = "cdn.xn--b6gac.eu.org";
+let proxyIP = "52.74.101.26";
 
 const worker_default = {
 	/**
